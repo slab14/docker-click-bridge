@@ -1,4 +1,4 @@
-FROM jhelt/click-router
+FROM click:latest
 
 COPY bridge.click bridge.click
 COPY run.sh run.sh
