@@ -4,6 +4,6 @@ COPY bridge.click bridge.click
 COPY run.sh run.sh
 
 # Run bridge application
-CMD ["eth0", "eth1"]
+CMD ["eth1", "eth2"]
 ENTRYPOINT ["/run.sh"]
 
